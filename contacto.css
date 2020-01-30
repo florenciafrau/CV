@@ -1,0 +1,55 @@
+:root {
+    --colorPrimario: rgb(100, 209, 173);
+    --colorSecundario: white;
+    --fontColor: black;
+    --fontSize-desktop: 16px;
+    --titleSize-desktop: 28px;
+    --fontSize-mobile: 12px;
+    --titleSize-mobile: 18px;
+}
+
+main h1 {
+    font-size: var(--titleSize-desktop);
+    font-weight: bold;
+    color: var(--fontColor);
+    border-bottom: 3px solid black;
+    margin-bottom: 30px;
+}
+
+main p {
+    font-size: var(--fontSize-desktop);
+    color: var(--fontColor);
+}
+
+main span {
+    font-weight: bold;
+    color: var(--colorPrimario);
+}
+
+@media (max-width: 768px) {
+
+    main {
+        width: 95%;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    
+    main h1 {
+        font-size: var(--titleSize-mobile);
+        font-weight: bold;
+        color: var(--fontColor);
+        border-bottom: 2px solid black;
+        margin-bottom: 15px;
+    }
+    
+    main p {
+        font-size: var(--fontSize-mobile);
+        color: var(--fontColor);
+    }
+    
+    main span {
+        font-weight: bold;
+        color: var(--colorPrimario);
+    }
+
+}

@@ -1,0 +1,141 @@
+:root {
+    --colorPrimario: rgb(100, 209, 173);
+    --colorSecundario: white;
+    --fontColor: black;
+    --fontSize-desktop: 16px;
+    --titleSize-desktop: 28px;
+    --fontSize-mobile: 12px;
+    --titleSize-mobile: 18px;
+}
+
+main .presentacion {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+main .presentacion .foto {
+    width: 20%;
+    margin-right: 30px;
+}
+
+main .presentacion .foto img {
+    width: 100%;
+    border: 2px solid black;
+}
+
+main .presentacion .quienSoy {
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+main .presentacion .quienSoy h3 {
+    width: 100%;
+    font-size: var(--titleSize-desktop);
+    border-bottom: 3px solid black;
+}
+
+main .presentacion .quienSoy p {
+    width: 100%;
+    margin-bottom: 3px;
+    font-size: var(--fontSize-desktop);
+}
+
+main .datosPersonales {
+    width: 20%;
+    margin-top: 30px;
+}
+
+main .datosPersonales .dato {
+    width: 100%;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .datosPersonales .dato svg {
+    margin-right: 5px;
+}
+
+main .datosPersonales .dato p {
+    font-size: var(--fontSize-desktop);
+    color: var(--fontColor);
+}
+
+main .datosPersonales .dato a {
+    font-size: var(--fontSize-desktop);
+    color: var(--fontColor);
+}
+
+@media (max-width: 768px) {
+
+    main {
+        width: 95%;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+    
+    main .presentacion {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    main .presentacion .foto {
+        width: 30%;
+    }
+    
+    main .presentacion .foto img {
+        width: 100%;
+        border: 1px solid black;
+    }
+    
+    main .presentacion .quienSoy {
+        width: 80%;
+        margin-bottom: 15px;
+    }
+    
+    main .presentacion .quienSoy h3 {
+        width: 100%;
+        font-size: var(--titleSize-mobile);
+        border-bottom: 2px solid black;
+    }
+    
+    main .presentacion .quienSoy p {
+        width: 100%;
+        margin-bottom: 2px;
+        font-size: var(--fontSize-mobile);
+    }
+    
+    main .datosPersonales {
+        width: 40%;
+        margin-top: 10px;
+    }
+    
+    main .datosPersonales .dato {
+        width: 100%;
+        margin-bottom: 3px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    main .datosPersonales .dato svg {
+        margin-right: 3px;
+        width: 15px;
+        height: 15px;
+    }
+    
+    main .datosPersonales .dato p {
+        font-size: var(--fontSize-mobile);
+        color: var(--fontColor);
+    }
+    
+    main .datosPersonales .dato a {
+        font-size: var(--fontSize-mobile);
+        color: var(--fontColor);
+    }
+    
+}

@@ -1,0 +1,165 @@
+:root {
+    --colorPrimario: rgb(100, 209, 173);
+    --colorSecundario: white;
+    --fontColor: black;
+    --fontSize-desktop: 16px;
+    --titleSize-desktop: 28px;
+    --fontSize-mobile: 12px;
+    --titleSize-mobile: 18px;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.yo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.yo h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.yo h2 {
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+.contenedor {
+    width: 30%;
+}
+
+.idiomas {
+    margin-bottom: 30px;
+}
+
+.idiomas .idiomas-h {
+    font-size: 20px;
+    color: var(--fontColor);
+    border-bottom: 2px solid black;
+}
+
+.idiomas .idioma {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.idiomas .idioma svg {
+    margin-right: 15px;
+}
+
+.idiomas .idioma p {
+    font-size: 15px;
+}
+
+.lenguajes .lenguajes-h {
+    font-size: 20px;
+    color: var(--fontColor);
+    border-bottom: 2px solid black;
+}
+
+.lenguajes .lenguaje {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.lenguajes .lenguaje svg {
+    margin-right: 15px;
+}
+
+.lenguajes .lenguaje p {
+    font-size: 15px;
+}
+
+@media (max-width: 768px) {
+
+    main {
+        width: 95%;
+        margin-right: 10px;
+        margin-left: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    .yo {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    
+    .yo h1 {
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+    
+    .yo h2 {
+        font-size: 15px;
+        margin-bottom: 2px;
+    }
+    
+    .contenedor {
+        width: 30%;
+    }
+    
+    .idiomas {
+        margin-bottom: 15px;
+    }
+    
+    .idiomas .idiomas-h {
+        font-size: 14px;
+        color: var(--fontColor);
+        border-bottom: 1px solid black;
+        margin-bottom: 5px;
+    }
+    
+    .idiomas .idioma {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 0px;
+    }
+    
+    .idiomas .idioma svg {
+        width: 10px;
+        height: 10px;
+        margin-right: 12px;
+    }
+    
+    .idiomas .idioma p {
+        font-size: 12px;
+    }
+    
+    .lenguajes .lenguajes-h {
+        font-size: 14px;
+        color: var(--fontColor);
+        border-bottom: 1px solid black;
+        margin-bottom: 5px;
+    }
+    
+    .lenguajes .lenguaje {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 0px;
+    }
+    
+    .lenguajes .lenguaje svg {
+        width: 10px;
+        height: 10px;
+        margin-right: 12px;
+    }
+    
+    .lenguajes .lenguaje p {
+        font-size: 12px;
+    }
+
+}

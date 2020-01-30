@@ -1,0 +1,83 @@
+:root {
+    --colorPrimario: rgb(100, 209, 173);
+    --colorSecundario: white;
+    --fontColor: black;
+    --fontSize-desktop: 16px;
+    --titleSize-desktop: 28px;
+    --fontSize-mobile: 12px;
+    --titleSize-mobile: 18px;
+}
+
+.educaciones .educacion-h {
+    width: 100%;
+    font-size: var(--titleSize-desktop);
+    color: var(--fontColor);
+    border-bottom: 3px solid black;
+}
+
+.educaciones .educacion {
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.educaciones .educacion .año {
+    font-size: 20px;
+    margin-right: 50px;
+}
+
+.educaciones .educacion .titulo {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.educaciones .educacion .instituto {
+    font-size: 18px;
+    color: rgb(105, 105, 105);
+}
+
+@media (max-width: 768px) {
+
+    .educaciones {
+        width: 95%;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    
+    .educaciones .educacion-h {
+        width: 100%;
+        font-size: var(--titleSize-mobile);
+        color: var(--fontColor);
+        border-bottom: 2px solid black;
+    }
+    
+    .educaciones .educacion {
+        width: 90%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    
+    .educaciones .educacion .año {
+        font-size: 14px;
+        margin-right: 50px;
+    }
+    
+    .educaciones .educacion .titulo {
+        font-size: 14px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    
+    .educaciones .educacion .instituto {
+        font-size: 12px;
+        color: rgb(105, 105, 105);
+    }
+
+}

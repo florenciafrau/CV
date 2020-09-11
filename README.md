@@ -1,3 +1,3 @@
 # CV
 Mi currículum online.
-URL: https://florfrau.netlify.com/
+URL:  https://florfrau.netlify.app/

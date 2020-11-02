@@ -18,8 +18,9 @@
 .experiencias .experiencia .head-exp {
     width: 90%;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
+    margin-top: 25px;
     margin-bottom: 25px;
 }
 

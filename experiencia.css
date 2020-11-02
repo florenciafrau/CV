@@ -25,6 +25,7 @@
 }
 
 .experiencias .experiencia .head-exp .año, .empresa {
+    margin-right: 25px;
     font-size: 24px;
     font-weight: bold;
 }
@@ -49,6 +50,7 @@
         display: flex;
         justify-content: flex-start;
         align-items: center;
+        margin-top: 15px;
         margin-bottom: 15px;
     }
     
